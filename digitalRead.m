@@ -1,0 +1,1 @@
+function [Error State] = digitalRead(ioPin)% Reads digital data from an IO pin.% Inputs: ioPin% Outputs: [Error, State]% Initialize LJUD Constants% Read state from pin.[Error State] = ljud_eGet(ljHandle,LJ_ioGET_DIGITAL_BIT,ioPin,0,0)end
