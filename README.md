@@ -9,7 +9,7 @@ Other Helpful Links:
 
 Support Functions
 ------------------
-- [X] digitalWrite() @faberc
+- [X] digitalWrite()
 - [X] digitalRead()
 - [X] analogWrite()
 - [X] analogRead()
@@ -24,6 +24,7 @@ Functions
 - [ ] crossWalkLights()
   - [ ] crossWalkButtons()
 - [ ] ambientLight()
+- [ ] driver()
 
 Variables
 ------------------
