@@ -1,0 +1,1 @@
+function [buttonsNS, buttonsEW] = crossWalkButtons()% This script reads the each button continuously for a button press% and outputs the activation state for North-South, and East-West crosswalks% Resets the crosswalk activation after appropriate time. May need to make use% of tvar = tic and toc(tvar) to reset button press.end

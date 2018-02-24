@@ -1,0 +1,1 @@
+function Error = analogWrite(ioPin, V)% Inputs: ioPin, V (voltage value)% Outputs: Error%Initialize LJUD Constant LJ_ioPUT_DACglobal ljHandleglobal LJ_ioPUT_DAC% Send voltage V to Analog pinError = ljud_ePut (ljHandle, LJ_ioPUT_DAC, ioPin, V, 0);end
