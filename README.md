@@ -3,9 +3,13 @@ Welcome! When working on this project, please refer to the [Programming Timing d
 
 Please use the support functions such as analogWrite, digitalRead, etc. rather than the hardcode for LabJack reading and writing for ease of use. Please also continuously add documentation to your code so we don't have to do it later.
 
+*NOTE*: Even if something is checked off, please review the code to see that it looks okay to you and to get a feel for what it does. Certain scripts will be dependent on other scripts, and double and triple checking is always better than never checking! :+1:
+
 Other Helpful Links:
 --------------------
 - [LJ IO Pin Number Translation Table](https://github.com/faberc/Intersection_Project/blob/master/Documentation/LJ_Pin_Numbers.pdf)
+- [Quick Intro to GitHub (Video)](https://youtu.be/EUvmCuPjHD4)
+- [Markdown Cheatsheet](https://github.com/faberc/Intersection_Project/blob/master/Documentation/markdown-cheatsheet-online.pdf)
 
 Support Functions
 ------------------
