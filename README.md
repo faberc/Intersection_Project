@@ -6,6 +6,7 @@ Please use the support functions such as analogWrite, digitalRead, etc. rather t
 Other Helpful Links:
 --------------------
 - [LJ IO Pin Number Translation Table](https://github.com/faberc/Intersection_Project/blob/master/Documentation/LJ_Pin_Numbers.pdf)
+- [Quick Intro to GitHub](https://youtu.be/EUvmCuPjHD4)
 
 Support Functions
 ------------------
