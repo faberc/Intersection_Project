@@ -1,1 +1,1 @@
-function [] = trafficLights(t)% Has subfunctions turnLane() which outputs TurnLaneA, and TurnLaneC states.% Inputs: t (time)[TurnLaneA, TurnLaneC] = turnLane();if TurnLaneC == 1end[TurnLaneA, TurnLaneC] = turnLane();if TurnLaneA == 1endendend
+function [] = trafficLights(t)% Has subfunctions turnLane() which outputs TurnLaneA, and TurnLaneC states.% Inputs: t (time)[turnLaneA, turnLaneC] = turnLane();if turnLaneC == 1end[turnLaneA, turnLaneC] = turnLane();if turnLaneA == 1endendend
