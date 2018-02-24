@@ -9,7 +9,7 @@ Other Helpful Links:
 --------------------
 - [LJ IO Pin Number Translation Table](https://github.com/faberc/Intersection_Project/blob/master/Documentation/LJ_Pin_Numbers.pdf)
 - [Quick Intro to GitHub (Video)](https://youtu.be/EUvmCuPjHD4)
-- [Markdown Cheatsheet] (https://github.com/faberc/Intersection_Project/blob/master/Documentation/markdown-cheatsheet-online.pdf)
+- [Markdown Cheatsheet](https://github.com/faberc/Intersection_Project/blob/master/Documentation/markdown-cheatsheet-online.pdf)
 
 Support Functions
 ------------------
