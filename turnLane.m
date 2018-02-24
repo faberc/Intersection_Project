@@ -1,0 +1,1 @@
+function [TurnLaneA, TurnLaneC] = turnLane()% This program reads the values from the Hall Effect Sensors and outputs% the states of these inputs.TurnLaneA = digitalRead(ioPin1)TurnLaneB = digitalRead(ioPin2)end
