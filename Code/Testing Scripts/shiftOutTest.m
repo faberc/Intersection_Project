@@ -1,5 +1,4 @@
 initializeLJ();
-I = [1, 0, 1, 0, 1, 0, 1, 0];
-I = logical(I);
+I = [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1];
 shiftOut(I);
-pause(3)
+pause(1)
