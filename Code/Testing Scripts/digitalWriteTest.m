@@ -3,6 +3,9 @@
 % digitalWrite function verified by Chuck 2/15/2018
 
 initializeLJ()
-digitalWrite(4,1);
+for i = 1:5
+digitalWrite(0,1);
 pause(3);
-digitalWrite(4,0);
+digitalWrite(0,0);
+pause(3);
+end
