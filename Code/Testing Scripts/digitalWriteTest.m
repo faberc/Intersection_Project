@@ -4,8 +4,8 @@
 
 initializeLJ()
 for i = 1:5
-digitalWrite(0,1);
-pause(3);
-digitalWrite(0,0);
-pause(3);
+digitalWrite(3,1);
+pause(1);
+digitalWrite(3,0);
+pause(1);
 end
