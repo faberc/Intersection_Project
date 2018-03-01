@@ -1,0 +1,12 @@
+function globaltime()
+% This function starts and resets a timer every time it is called.
+% No inputs or outputs.
+global gtimer
+gtimer = tic;
+% while true
+% if toc(gtimer) >= 45
+%    gtimer = tic;
+% end
+% end
+end
+
