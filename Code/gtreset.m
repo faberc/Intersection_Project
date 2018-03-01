@@ -6,11 +6,8 @@ function gtreset()
 % ''toc(gtimer)'' (this calls the time)
 % Call the function at the beginning of any 45 second loop.
 
+% Tested and verified by Chuck on 3/1/2018
+
 global gtimer
 gtimer = tic;
-% while true
-% if toc(gtimer) >= 45
-%    gtimer = tic;
-% end
-% end
 end
