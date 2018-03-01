@@ -1,8 +1,10 @@
 function gtreset()
 % This function sets or resets a tic timer "gtimer" each time it is called.
 % The timer is set as a global variable, and can be called with:
-% global gtimer (always start any scripts referencing the time with this)
-% toc(gtimer) (this calls the time)
+% ''global gtimer'' (calls the global variable)
+
+% ''toc(gtimer)'' (this calls the time)
+% Call the function at the beginning of any 45 second loop.
 
 global gtimer
 gtimer = tic;
