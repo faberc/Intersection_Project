@@ -25,7 +25,7 @@ Support Functions
 
 Functions
 ------------------
-- [ ] trafficLights(speed)  % Controls traffic light timing; has speed input
+- [X] trafficLights()  % Controls traffic light timing; has speed input
   - [ ] turnLane()          % Reads Hall-Effect Sensors and outputs states at certain times.
 - [ ] crossWalkLights()     % Controls crosswalk indicator timing.
   - [ ] crossWalkButtons()  % Continuously reads from crosswalk buttons.
@@ -34,7 +34,7 @@ Functions
 
 Variables
 ------------------
-- speed                   % defines the speed of the pattern. Multiply to gtimer toc time to increase speed. Input for all time based functions
+- speed                   % defines the speed of the pattern. Multiply to gtimer toc time to increase speed. 
 - t = toc(gtimer)\*speed  % the general expression for time in time-based functions.
 - night                   % state that says if ambient light is dark or not
 - turnLaneA
