@@ -35,7 +35,7 @@ Functions
 Variables
 ------------------
 - speed                   % defines the speed of the pattern. Multiply to gtimer toc time to increase speed. 
-- t = toc(gtimer)\*speed  % the general expression for time in time-based functions.
+- t = gtime()  % the general expression for time in time-based functions.
 - night                   % state that says if ambient light is dark or not
 - turnLaneA
 - turnLaneC
