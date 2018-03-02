@@ -1,5 +1,5 @@
 # Intersection_Project
-Welcome! When working on this project, please refer to the [Programming Timing diagram](https://github.com/faberc/Intersection_Project/blob/master/Documentation/Programming%20Timing%20Diagram.pdf) for notes about how the program should run, as well as the [circuit diagram](https://github.com/faberc/Intersection_Project/blob/master/Documentation/IntersectionWiringOverview.png) for the pinouts from the LabJack.
+Welcome! When working on this project, please refer to the [Programming Timing diagram](https://docs.google.com/document/d/1o6afdJ77Zcd1yHTJt-up1C2sTuCTtpHGJqIndX7Ty9w/edit?usp=sharing) for notes about how the program should run, as well as the [circuit diagram](https://github.com/faberc/Intersection_Project/blob/master/Documentation/IntersectionWiringOverview.png) for the pinouts from the LabJack.
 
 Please use the support functions such as analogWrite, digitalRead, etc. rather than the hardcode for LabJack reading and writing for ease of use. Please also continuously add documentation to your code so we don't have to do it later.
 
