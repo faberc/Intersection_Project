@@ -37,8 +37,6 @@ Variables
 - speed                   % defines the speed of the pattern. Multiply to gtimer toc time to increase speed. 
 - t = gtime()  % the general expression for time in time-based functions.
 - night                   % state that says if ambient light is dark or not
-- turnLaneA
-- turnLaneC
 - buttonsEW
 - buttonsNS
 
@@ -49,6 +47,8 @@ Variables
 - LJ_ioPUT_DIGITAL_BIT
 - LJ_ioGET_DIGITAL_BIT
 - gtimer                % A 'tic' timer. Call with toc(gtimer).
+- turnLaneA
+- turnLaneC
 
 Constants
 ------------------
