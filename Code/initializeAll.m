@@ -1,0 +1,1 @@
+function initializeAll()% Initializes LabJack, all scripts and all global variables.initializeLJ(); % Initialize LabJackgtreset(); % Initialize global timerglobal [TLAseq, TLCseq, readyEW, readyNS, speed];[readyEW, readyNS] = 0; % Initialize global button states.[TLAseq, TLCseq] = 0; % Initialize turn lane states.speed = 1; % Set Speed to 1X.end

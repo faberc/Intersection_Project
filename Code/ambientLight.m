@@ -1,1 +1,1 @@
-function [night] = ambientLight()% This function reads the value from the photoresistor and returns the variable% 'night', which is used by the driver function to turn on the street lamps% if true and off if false.end
+function night = ambientLight()% This function reads the value from the photoresistor and returns the variable% 'night', which is used by the driver function to turn on the street lamps% if true and off if false.% Photoresistor connected to FIO6.end

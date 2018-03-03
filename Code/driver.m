@@ -1,0 +1,1 @@
+% Driver Script -- Run this to start whole program.initializeAll();stop = 0;% Add GUI option to run program with stop feature.while stop ~= 1 % Add a stop function in gui.% Find way to display data in GUI.trafficArray = trafficLights();carSense = turnLanes();cwStates = crossWalkLights();clickStates = crossWalkButtons();end
