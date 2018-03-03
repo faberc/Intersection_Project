@@ -19,12 +19,13 @@ Support Functions
 - [X] analogRead()    % Read analog voltage
 - [X] shiftOut()      % Shift out traffic light signals
 - [X] initializeLJ()  % Initialize LabJack (configure analog-read pins)
-- [ ] diagnostic()    % Function allowing us to test particular aspects of the board and produces command window outputs. Maybe make a                           GUI.
+- [ ] diagnostic()    % Function allowing us to test particular aspects of the board and produces command window outputs. Maybe make a GUI.
 - [X] gtreset()       % Global timer start and reset
+- [X] gtime()         % Outputs the global time multiplied by a defined speed.
 
 Functions
 ------------------
-- [ ] trafficLights(speed)  % Controls traffic light timing; has speed input
+- [X] trafficLights()  % Controls traffic light timing; has speed input
   - [ ] turnLane()          % Reads Hall-Effect Sensors and outputs states at certain times.
 - [ ] crossWalkLights()     % Controls crosswalk indicator timing.
   - [ ] crossWalkButtons()  % Continuously reads from crosswalk buttons.
@@ -33,8 +34,8 @@ Functions
 
 Variables
 ------------------
-- speed                   % defines the speed of the pattern. Multiply to gtimer toc time to increase speed. Input for all time based                               functions
-- t = toc(gtimer)\*speed  % the general expression for time in time-based functions.
+- speed                   % defines the speed of the pattern. Multiply to gtimer toc time to increase speed. 
+- t = gtime()  % the general expression for time in time-based functions.
 - night                   % state that says if ambient light is dark or not
 - turnLaneA
 - turnLaneC
