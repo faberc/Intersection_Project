@@ -1,5 +1,5 @@
 # Intersection_Project
-Welcome! When working on this project, please refer to the [Programming Timing diagram](https://docs.google.com/document/d/1o6afdJ77Zcd1yHTJt-up1C2sTuCTtpHGJqIndX7Ty9w/edit?usp=sharing) for notes about how the program should run, as well as the [circuit diagram](https://github.com/faberc/Intersection_Project/blob/master/Documentation/IntersectionWiringOverview.png) for the pinouts from the LabJack.
+Welcome! When working on this project, please refer to the [Programming Timing diagram](https://docs.google.com/document/d/1o6afdJ77Zcd1yHTJt-up1C2sTuCTtpHGJqIndX7Ty9w/edit?usp=sharing) for notes about how the program should run, as well as the [circuit diagram](https://drive.google.com/open?id=1V5i5smMEhOrYQ-vPv0OhIJ8th7cMYPNT) for the pinouts from the LabJack.
 
 Please use the support functions such as analogWrite, digitalRead, etc. rather than the hardcode for LabJack reading and writing for ease of use. Please also continuously add documentation to your code so we don't have to do it later.
 
@@ -7,7 +7,7 @@ Please use the support functions such as analogWrite, digitalRead, etc. rather t
 
 Other Helpful Links:
 --------------------
-- [LJ IO Pin Number Translation Table](https://github.com/faberc/Intersection_Project/blob/master/Documentation/LJ_Pin_Numbers.pdf)
+- [LJ IO Pin Number Translation Table](https://docs.google.com/document/d/1VHfc45q_GvK2ZfIs2wC4xYnW6Y_8pki-Y3R8Vw0WFXg/edit?usp=sharing)
 - [Quick Intro to GitHub (Video)](https://youtu.be/EUvmCuPjHD4)
 - [Markdown Cheatsheet](https://github.com/faberc/Intersection_Project/blob/master/Documentation/markdown-cheatsheet-online.pdf)
 
