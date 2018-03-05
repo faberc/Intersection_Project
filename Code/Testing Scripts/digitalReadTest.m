@@ -19,7 +19,7 @@ count = 0; % Initialize counter for switch events
 delay = 0.2;
 
 while true  
-    [Error State]= digitalRead(4); % Read switch
+    [Error State]= digitalRead(1); % Read switch
     Error_Message(Error)
     
     if (State == 0)  % Check if switch button was pressed
