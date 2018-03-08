@@ -18,7 +18,7 @@ disp('Measurement started:')
 
 while true
     % Read FIO4 voltage
-    [Error AIN] = analogRead(4);
+    [Error AIN] = analogRead(6);
     Error_Message(Error)
 
     fprintf('%6.3f\n', AIN)
