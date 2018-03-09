@@ -1,0 +1,9 @@
+initializeAll();
+global readyNS
+global readyEW
+while true
+trafficLights();
+crossWalkLights();
+clickStates = crossWalkButtons();
+disp([readyNS, readyEW]);
+end

@@ -7,6 +7,6 @@ while true
     crossWalkLights();
     crossWalkButtons();
     disp([readyNS, readyEW])
-    pause(1);
-    fprintf("Time is %i ", round(time))
+%    pause(1);
+%    fprintf("Time is %i ", round(time))
 end
