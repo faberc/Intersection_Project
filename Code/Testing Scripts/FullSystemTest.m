@@ -1,6 +1,6 @@
 clear
 clc
-initializeAll();
+initializeAll(1);
 
 global readyNS
 global readyEW
