@@ -7,10 +7,10 @@ global readyEW
 
 while true
 t = gtime();
-trafficLights();
+trafficArray = trafficLights();
 carSense = turnLanes();
-crossWalkLights();
-crossWalkButtons();
+cwStates = crossWalkLights();
+clickStates = crossWalkButtons();
 lux = ambientLight();
 
 if abs(t - round(t)) < 0.01
