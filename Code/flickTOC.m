@@ -1,0 +1,1 @@
+function t = flickTOC()% Calls flicker timer time.t = toc(flickTIC);end

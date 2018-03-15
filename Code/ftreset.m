@@ -1,0 +1,1 @@
+function flickTIC = ftreset()% Sets a timer for flickering lights in house.flickTIC = tic;end
