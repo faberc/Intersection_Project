@@ -1,4 +1,5 @@
 initializeAll();
+%Hi
 global readyNS
 global readyEW
 t = gtime();
